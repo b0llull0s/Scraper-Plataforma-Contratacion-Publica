@@ -1,0 +1,74 @@
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+contracts.db
+
+# Binary files
+main
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build artifacts
+bin/
+dist/
+build/
+
+# Go specific
+*.o
+*.a
+*.test
+*.out
+go.work
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Screenshots and temporary files
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Coverage reports
+coverage.txt
+coverage.html
+
+# Dependency directories
+vendor/
+
+# Air live reload
+tmp/ 
